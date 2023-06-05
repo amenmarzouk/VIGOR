@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+.header-element {
+ 
+   height: 650px;
+
+  }
+li ,a, button {
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+}
+header{
+    
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.815);
+    
+}
+.logo{
+    cursor: pointer;
+    width: 120px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 20px
+
+}
+ul li a{
+    transition: all 0.5s ease 0s ;
+    color: antiquewhite;
+}
+ul li a:hover{
+    color: crimson;
+}
+button{
+    color: rgb(216, 216, 216);
+    background-color: rgba(1, 136, 169, 1);
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s ;
+    margin-right: 15px;
+}
+button:hover{
+    background-color: rgba(1, 136, 169, 0.8);
+}
+
+
+
+.hero{
+    height: 700px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    overflow: hidden;
+   margin-top: -550px;
+}
+
+.home-left{
+   position: relative;
+   width: 40%;
+    background-color:#212121;
+    height: 100%;
+    box-shadow:90px 0 100px 100px #212121;
+    
+}    
+h1{
+    color: #f1f1f1;
+    font-size: 90px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin-left: 8vw;
+    white-space: nowrap;
+}
+.hero p{
+    color:#f1f1f1;
+    font-size: 20px;
+    width: 600px;
+    margin-left: 8vw;
+    line-height: 1.5;
+}
+.btn-hero{
+    display: flex;
+}
+.btn-home{
+    font-size: 18px;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: #ff6129;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.btn-home:hover{
+    color: #212121;
+    background: #f1f1f1;
+    transition: all 0.3s ease;
+}
+.b1{
+    margin-left: 8vw;
+}
+.b2{
+    margin-left: 10px;
+}
+.home-right{
+    background-image: url('ccf39b136094599221aab17ea70cdb79.jpg');
+    width: 60%;
+    height: 100%;
+    background-position: 5% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+footer{
+    background:   rgba(10, 9, 9, 0.932);
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+.time{
+  margin-left: 10px;
+}
+  .cont{
+    color: #265DF2;
+  }
+
+  textarea{
+    vertical-align: top;
+  
+  }
+  input,textarea{
+border-radius: 10px;
+  }
+
+  .loc{
+    height: 400px;
+    width: 500px;
+  }
